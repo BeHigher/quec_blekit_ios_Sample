@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_quec_blekit_ios_Sample_quec_blekit_ios_SampleUITests : NSObject
+@end
+@implementation PodsDummy_Pods_quec_blekit_ios_Sample_quec_blekit_ios_SampleUITests
+@end

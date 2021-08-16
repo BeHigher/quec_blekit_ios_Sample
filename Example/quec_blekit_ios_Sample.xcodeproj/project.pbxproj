@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A9BCCB0C738E10A6D2D6532 /* Pods_quec_blekit_ios_Sample_quec_blekit_ios_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9914524ABE6B25B0DAC0CB /* Pods_quec_blekit_ios_Sample_quec_blekit_ios_SampleUITests.framework */; };
+		3044E18326CA66F900ECA622 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3044E18226CA66F900ECA622 /* AppDelegate.m */; };
+		3044E18626CA66F900ECA622 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3044E18526CA66F900ECA622 /* SceneDelegate.m */; };
+		3044E18926CA66F900ECA622 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3044E18826CA66F900ECA622 /* ViewController.m */; };
+		3044E18C26CA66F900ECA622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3044E18A26CA66F900ECA622 /* Main.storyboard */; };
+		3044E18E26CA66FF00ECA622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3044E18D26CA66FF00ECA622 /* Assets.xcassets */; };
+		3044E19126CA66FF00ECA622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3044E18F26CA66FF00ECA622 /* LaunchScreen.storyboard */; };
+		3044E19426CA66FF00ECA622 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3044E19326CA66FF00ECA622 /* main.m */; };
+		3044E19E26CA66FF00ECA622 /* quec_blekit_ios_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3044E19D26CA66FF00ECA622 /* quec_blekit_ios_SampleTests.m */; };
+		3044E1A926CA66FF00ECA622 /* quec_blekit_ios_SampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3044E1A826CA66FF00ECA622 /* quec_blekit_ios_SampleUITests.m */; };
+		91191B6265D1EE8566867266 /* Pods_quec_blekit_ios_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4E715E3982F6EEA4766E32 /* Pods_quec_blekit_ios_Sample.framework */; };
+		CE9E00793F0ECAB8FAE7806E /* Pods_quec_blekit_ios_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7AF1B7A2E08FDBED4C28C0 /* Pods_quec_blekit_ios_SampleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3044E19A26CA66FF00ECA622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3044E17626CA66F900ECA622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3044E17D26CA66F900ECA622;
+			remoteInfo = quec_blekit_ios_Sample;
+		};
+		3044E1A526CA66FF00ECA622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3044E17626CA66F900ECA622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3044E17D26CA66F900ECA622;
+			remoteInfo = quec_blekit_ios_Sample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		193FA0D7131FDF2DD43C0A1C /* Pods-quec_blekit_ios_Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quec_blekit_ios_Sample.release.xcconfig"; path = "Target Support Files/Pods-quec_blekit_ios_Sample/Pods-quec_blekit_ios_Sample.release.xcconfig"; sourceTree = "<group>"; };
+		2B7AF1B7A2E08FDBED4C28C0 /* Pods_quec_blekit_ios_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quec_blekit_ios_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3044E17E26CA66F900ECA622 /* quec_blekit_ios_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quec_blekit_ios_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3044E18126CA66F900ECA622 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3044E18226CA66F900ECA622 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3044E18426CA66F900ECA622 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3044E18526CA66F900ECA622 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3044E18726CA66F900ECA622 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3044E18826CA66F900ECA622 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3044E18B26CA66F900ECA622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3044E18D26CA66FF00ECA622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3044E19026CA66FF00ECA622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3044E19226CA66FF00ECA622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3044E19326CA66FF00ECA622 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3044E19926CA66FF00ECA622 /* quec_blekit_ios_SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quec_blekit_ios_SampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3044E19D26CA66FF00ECA622 /* quec_blekit_ios_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quec_blekit_ios_SampleTests.m; sourceTree = "<group>"; };
+		3044E19F26CA66FF00ECA622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3044E1A426CA66FF00ECA622 /* quec_blekit_ios_SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quec_blekit_ios_SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3044E1A826CA66FF00ECA622 /* quec_blekit_ios_SampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quec_blekit_ios_SampleUITests.m; sourceTree = "<group>"; };
+		3044E1AA26CA66FF00ECA622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33FAA55592621E39783F3B6F /* Pods-quec_blekit_ios_Sample-quec_blekit_ios_SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quec_blekit_ios_Sample-quec_blekit_ios_SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-quec_blekit_ios_Sample-quec_blekit_ios_SampleUITests/Pods-quec_blekit_ios_Sample-quec_blekit_ios_SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50E32368B2E75A61DA86943C /* Pods-quec_blekit_ios_SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quec_blekit_ios_SampleTests.debug.xcconfig"; path = "Target Support Files/Pods-quec_blekit_ios_SampleTests/Pods-quec_blekit_ios_SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E1DCD3A76B36FE3865C11FD /* Pods-quec_blekit_ios_SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quec_blekit_ios_SampleTests.release.xcconfig"; path = "Target Support Files/Pods-quec_blekit_ios_SampleTests/Pods-quec_blekit_ios_SampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA4E715E3982F6EEA4766E32 /* Pods_quec_blekit_ios_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quec_blekit_ios_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE637EB5FB00450608CEB64 /* Pods-quec_blekit_ios_Sample-quec_blekit_ios_SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quec_blekit_ios_Sample-quec_blekit_ios_SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-quec_blekit_ios_Sample-quec_blekit_ios_SampleUITests/Pods-quec_blekit_ios_Sample-quec_blekit_ios_SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC9914524ABE6B25B0DAC0CB /* Pods_quec_blekit_ios_Sample_quec_blekit_ios_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quec_blekit_ios_Sample_quec_blekit_ios_SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7070A394F4D78FCC493DC40 /* Pods-quec_blekit_ios_Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quec_blekit_ios_Sample.debug.xcconfig"; path = "Target Support Files/Pods-quec_blekit_ios_Sample/Pods-quec_blekit_ios_Sample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3044E17B26CA66F900ECA622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91191B6265D1EE8566867266 /* Pods_quec_blekit_ios_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3044E19626CA66FF00ECA622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9E00793F0ECAB8FAE7806E /* Pods_quec_blekit_ios_SampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3044E1A126CA66FF00ECA622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9BCCB0C738E10A6D2D6532 /* Pods_quec_blekit_ios_Sample_quec_blekit_ios_SampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063E18201885EC8EDDFD5897 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7070A394F4D78FCC493DC40 /* Pods-quec_blekit_ios_Sample.debug.xcconfig */,
+				193FA0D7131FDF2DD43C0A1C /* Pods-quec_blekit_ios_Sample.release.xcconfig */,
+				33FAA55592621E39783F3B6F /* Pods-quec_blekit_ios_Sample-quec_blekit_ios_SampleUITests.debug.xcconfig */,
+				BAE637EB5FB00450608CEB64 /* Pods-quec_blekit_ios_Sample-quec_blekit_ios_SampleUITests.release.xcconfig */,
+				50E32368B2E75A61DA86943C /* Pods-quec_blekit_ios_SampleTests.debug.xcconfig */,
+				8E1DCD3A76B36FE3865C11FD /* Pods-quec_blekit_ios_SampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3044E17526CA66F900ECA622 = {
+			isa = PBXGroup;
+			children = (
+				3044E18026CA66F900ECA622 /* quec_blekit_ios_Sample */,
+				3044E19C26CA66FF00ECA622 /* quec_blekit_ios_SampleTests */,
+				3044E1A726CA66FF00ECA622 /* quec_blekit_ios_SampleUITests */,
+				3044E17F26CA66F900ECA622 /* Products */,
+				063E18201885EC8EDDFD5897 /* Pods */,
+				9B6262AD73B21382C3063AB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3044E17F26CA66F900ECA622 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3044E17E26CA66F900ECA622 /* quec_blekit_ios_Sample.app */,
+				3044E19926CA66FF00ECA622 /* quec_blekit_ios_SampleTests.xctest */,
+				3044E1A426CA66FF00ECA622 /* quec_blekit_ios_SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3044E18026CA66F900ECA622 /* quec_blekit_ios_Sample */ = {
+			isa = PBXGroup;
+			children = (
+				3044E18126CA66F900ECA622 /* AppDelegate.h */,
+				3044E18226CA66F900ECA622 /* AppDelegate.m */,
+				3044E18426CA66F900ECA622 /* SceneDelegate.h */,
+				3044E18526CA66F900ECA622 /* SceneDelegate.m */,
+				3044E18726CA66F900ECA622 /* ViewController.h */,
+				3044E18826CA66F900ECA622 /* ViewController.m */,
+				3044E18A26CA66F900ECA622 /* Main.storyboard */,
+				3044E18D26CA66FF00ECA622 /* Assets.xcassets */,
+				3044E18F26CA66FF00ECA622 /* LaunchScreen.storyboard */,
+				3044E19226CA66FF00ECA622 /* Info.plist */,
+				3044E19326CA66FF00ECA622 /* main.m */,
+			);
+			path = quec_blekit_ios_Sample;
+			sourceTree = "<group>";
+		};
+		3044E19C26CA66FF00ECA622 /* quec_blekit_ios_SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3044E19D26CA66FF00ECA622 /* quec_blekit_ios_SampleTests.m */,
+				3044E19F26CA66FF00ECA622 /* Info.plist */,
+			);
+			path = quec_blekit_ios_SampleTests;
+			sourceTree = "<group>";
+		};
+		3044E1A726CA66FF00ECA622 /* quec_blekit_ios_SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3044E1A826CA66FF00ECA622 /* quec_blekit_ios_SampleUITests.m */,
+				3044E1AA26CA66FF00ECA622 /* Info.plist */,
+			);
+			path = quec_blekit_ios_SampleUITests;
+			sourceTree = "<group>";
+		};
+		9B6262AD73B21382C3063AB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E715E3982F6EEA4766E32 /* Pods_quec_blekit_ios_Sample.framework */,
+				CC9914524ABE6B25B0DAC0CB /* Pods_quec_blekit_ios_Sample_quec_blekit_ios_SampleUITests.framework */,
+				2B7AF1B7A2E08FDBED4C28C0 /* Pods_quec_blekit_ios_SampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3044E17D26CA66F900ECA622 /* quec_blekit_ios_Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3044E1AD26CA66FF00ECA622 /* Build configuration list for PBXNativeTarget "quec_blekit_ios_Sample" */;
+			buildPhases = (
+				DF40767C870BE855B2DF2CEF /* [CP] Check Pods Manifest.lock */,
+				3044E17A26CA66F900ECA622 /* Sources */,
+				3044E17B26CA66F900ECA622 /* Frameworks */,
+				3044E17C26CA66F900ECA622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quec_blekit_ios_Sample;
+			productName = quec_blekit_ios_Sample;
+			productReference = 3044E17E26CA66F900ECA622 /* quec_blekit_ios_Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3044E19826CA66FF00ECA622 /* quec_blekit_ios_SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3044E1B026CA66FF00ECA622 /* Build configuration list for PBXNativeTarget "quec_blekit_ios_SampleTests" */;
+			buildPhases = (
+				837308BF5AEFD86B2138DD98 /* [CP] Check Pods Manifest.lock */,
+				3044E19526CA66FF00ECA622 /* Sources */,
+				3044E19626CA66FF00ECA622 /* Frameworks */,
+				3044E19726CA66FF00ECA622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3044E19B26CA66FF00ECA622 /* PBXTargetDependency */,
+			);
+			name = quec_blekit_ios_SampleTests;
+			productName = quec_blekit_ios_SampleTests;
+			productReference = 3044E19926CA66FF00ECA622 /* quec_blekit_ios_SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3044E1A326CA66FF00ECA622 /* quec_blekit_ios_SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3044E1B326CA66FF00ECA622 /* Build configuration list for PBXNativeTarget "quec_blekit_ios_SampleUITests" */;
+			buildPhases = (
+				B7D33721B5BBE243F79B8B6D /* [CP] Check Pods Manifest.lock */,
+				3044E1A026CA66FF00ECA622 /* Sources */,
+				3044E1A126CA66FF00ECA622 /* Frameworks */,
+				3044E1A226CA66FF00ECA622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3044E1A626CA66FF00ECA622 /* PBXTargetDependency */,
+			);
+			name = quec_blekit_ios_SampleUITests;
+			productName = quec_blekit_ios_SampleUITests;
+			productReference = 3044E1A426CA66FF00ECA622 /* quec_blekit_ios_SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3044E17626CA66F900ECA622 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3044E17D26CA66F900ECA622 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					3044E19826CA66FF00ECA622 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3044E17D26CA66F900ECA622;
+					};
+					3044E1A326CA66FF00ECA622 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3044E17D26CA66F900ECA622;
+					};
+				};
+			};
+			buildConfigurationList = 3044E17926CA66F900ECA622 /* Build configuration list for PBXProject "quec_blekit_ios_Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3044E17526CA66F900ECA622;
+			productRefGroup = 3044E17F26CA66F900ECA622 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3044E17D26CA66F900ECA622 /* quec_blekit_ios_Sample */,
+				3044E19826CA66FF00ECA622 /* quec_blekit_ios_SampleTests */,
+				3044E1A326CA66FF00ECA622 /* quec_blekit_ios_SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3044E17C26CA66F900ECA622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3044E19126CA66FF00ECA622 /* LaunchScreen.storyboard in Resources */,
+				3044E18E26CA66FF00ECA622 /* Assets.xcassets in Resources */,
+				3044E18C26CA66F900ECA622 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3044E19726CA66FF00ECA622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3044E1A226CA66FF00ECA622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		837308BF5AEFD86B2138DD98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quec_blekit_ios_SampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D33721B5BBE243F79B8B6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quec_blekit_ios_Sample-quec_blekit_ios_SampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF40767C870BE855B2DF2CEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quec_blekit_ios_Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3044E17A26CA66F900ECA622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3044E18926CA66F900ECA622 /* ViewController.m in Sources */,
+				3044E18326CA66F900ECA622 /* AppDelegate.m in Sources */,
+				3044E19426CA66FF00ECA622 /* main.m in Sources */,
+				3044E18626CA66F900ECA622 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3044E19526CA66FF00ECA622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3044E19E26CA66FF00ECA622 /* quec_blekit_ios_SampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3044E1A026CA66FF00ECA622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3044E1A926CA66FF00ECA622 /* quec_blekit_ios_SampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3044E19B26CA66FF00ECA622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3044E17D26CA66F900ECA622 /* quec_blekit_ios_Sample */;
+			targetProxy = 3044E19A26CA66FF00ECA622 /* PBXContainerItemProxy */;
+		};
+		3044E1A626CA66FF00ECA622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3044E17D26CA66F900ECA622 /* quec_blekit_ios_Sample */;
+			targetProxy = 3044E1A526CA66FF00ECA622 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3044E18A26CA66F900ECA622 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3044E18B26CA66F900ECA622 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3044E18F26CA66FF00ECA622 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3044E19026CA66FF00ECA622 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3044E1AB26CA66FF00ECA622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3044E1AC26CA66FF00ECA622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3044E1AE26CA66FF00ECA622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7070A394F4D78FCC493DC40 /* Pods-quec_blekit_ios_Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNF8D63KDW;
+				INFOPLIST_FILE = quec_blekit_ios_Sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.quectel.com.quec-blekit-ios-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3044E1AF26CA66FF00ECA622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193FA0D7131FDF2DD43C0A1C /* Pods-quec_blekit_ios_Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNF8D63KDW;
+				INFOPLIST_FILE = quec_blekit_ios_Sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.quectel.com.quec-blekit-ios-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3044E1B126CA66FF00ECA622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E32368B2E75A61DA86943C /* Pods-quec_blekit_ios_SampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNF8D63KDW;
+				INFOPLIST_FILE = quec_blekit_ios_SampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.quectel.com.quec-blekit-ios-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quec_blekit_ios_Sample.app/quec_blekit_ios_Sample";
+			};
+			name = Debug;
+		};
+		3044E1B226CA66FF00ECA622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1DCD3A76B36FE3865C11FD /* Pods-quec_blekit_ios_SampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNF8D63KDW;
+				INFOPLIST_FILE = quec_blekit_ios_SampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.quectel.com.quec-blekit-ios-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quec_blekit_ios_Sample.app/quec_blekit_ios_Sample";
+			};
+			name = Release;
+		};
+		3044E1B426CA66FF00ECA622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FAA55592621E39783F3B6F /* Pods-quec_blekit_ios_Sample-quec_blekit_ios_SampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNF8D63KDW;
+				INFOPLIST_FILE = quec_blekit_ios_SampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.quectel.com.quec-blekit-ios-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = quec_blekit_ios_Sample;
+			};
+			name = Debug;
+		};
+		3044E1B526CA66FF00ECA622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE637EB5FB00450608CEB64 /* Pods-quec_blekit_ios_Sample-quec_blekit_ios_SampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNF8D63KDW;
+				INFOPLIST_FILE = quec_blekit_ios_SampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.quectel.com.quec-blekit-ios-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = quec_blekit_ios_Sample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3044E17926CA66F900ECA622 /* Build configuration list for PBXProject "quec_blekit_ios_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3044E1AB26CA66FF00ECA622 /* Debug */,
+				3044E1AC26CA66FF00ECA622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3044E1AD26CA66FF00ECA622 /* Build configuration list for PBXNativeTarget "quec_blekit_ios_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3044E1AE26CA66FF00ECA622 /* Debug */,
+				3044E1AF26CA66FF00ECA622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3044E1B026CA66FF00ECA622 /* Build configuration list for PBXNativeTarget "quec_blekit_ios_SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3044E1B126CA66FF00ECA622 /* Debug */,
+				3044E1B226CA66FF00ECA622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3044E1B326CA66FF00ECA622 /* Build configuration list for PBXNativeTarget "quec_blekit_ios_SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3044E1B426CA66FF00ECA622 /* Debug */,
+				3044E1B526CA66FF00ECA622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3044E17626CA66F900ECA622 /* Project object */;
+}
